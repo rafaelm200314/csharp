@@ -1,10 +1,34 @@
 ﻿@page
-@model IndexModel
+@model MyInventoryApp.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Dashboard";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1 class="mb-4">Inventory Dashboard</h1>
+
+@if (Model.Products.Count == 0)
+{
+    <p>No products available.</p>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var product in Model.Products)
+        {
+            <div class="col">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">
+                            <strong>Quantity:</strong> @product.Quantity<br />
+                            <strong>Price:</strong> $@product.Price
+                        </p>
+                        <span class="badge bg-@(product.Quantity > 0 ? "success" : "danger")">
+                            @(product.Quantity > 0 ? "In Stock" : "Out of Stock")
+                        </span>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

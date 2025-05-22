@@ -1,19 +1,25 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using MyInventoryApp.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace MyInventoryApp.Pages;
-
-public class IndexModel : PageModel
+namespace MyInventoryApp.Pages
 {
-    private readonly ILogger<IndexModel> _logger;
-
-    public IndexModel(ILogger<IndexModel> logger)
+    public class IndexModel : PageModel
     {
-        _logger = logger;
-    }
+        private readonly AppDbContext _context;
 
-    public void OnGet()
-    {
+        public IndexModel(AppDbContext context)
+        {
+            _context = context;
+        }
 
+        public List<Product> Products { get; set; } = new();
+
+        public async Task OnGetAsync()
+        {
+            Products = await _context.Products.ToListAsync();
+        }
     }
 }
