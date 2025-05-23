@@ -210,8 +210,6 @@
 /Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/compressed/jnxvnt4bqy-muycvpuwrr.gz
 /Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/compressed/jo5d8uorn7-87fc7y1x7t.gz
 /Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/compressed/asep12zyfs-mlv21k5csn.gz
-/Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/compressed/ea96yld69v-wqen61dkfi.gz
-/Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/compressed/qjgevd266z-wqen61dkfi.gz
 /Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/staticwebassets.build.json
 /Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/staticwebassets.build.json.cache
 /Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/staticwebassets.development.json
@@ -223,3 +221,7 @@
 /Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/MyInventoryApp.genruntimeconfig.cache
 /Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/ref/MyInventoryApp.dll
 /Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/MyInventoryApp.sourcelink.json
+/Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/bin/Debug/net9.0/BCrypt.Net-Next.dll
+/Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/scopedcss/Pages/Admin/adminlayout.cshtml.rz.scp.css
+/Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/compressed/ea96yld69v-i5jv2pjldy.gz
+/Applications/XAMPP/xamppfiles/htdocs/csharp/MyInventoryApp/obj/Debug/net9.0/compressed/qjgevd266z-i5jv2pjldy.gz
